@@ -1,0 +1,87 @@
+body {
+    background-color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #26877F;
+    border-radius: 15px;
+    margin-top: 2rem;
+}
+
+nav li {
+    display: inline-block;
+    margin-inline: 2%;
+    padding: 1%;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+section {
+    display: flex;
+    gap: 2rem 2rem;
+    margin-top: 2rem;
+}
+
+article {
+    flex: 1;
+    background-color: #31AFA4;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+article > img {
+    max-width: 100%;
+}
+
+.promo-banner {
+    background-image: url(Lucky-Shrub-images/promo-banner-3.jpg);
+}
+
+footer {
+    display: flex;
+    margin-top: 2rem;
+}
+
+footer div {
+    flex: 1;
+}
+
+/* animations and effects */
+li a:hover {
+    color: #31AFA4;
+}
+
+article:hover {
+    box-shadow: 0.5rem 0.5rem 1.5rem black;
+    cursor: pointer;
+}
+
+article > a:hover {
+    color: white;
+}
